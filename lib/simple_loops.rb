@@ -25,11 +25,13 @@ end
 
 def return_string_array(array)
   count = 0 
+  converted_array = []
   while count < array.length do
-    array[count].to_s 
+    converted_array.push(array[count].to_s)
     count += 1 
     
   end
+  converted_array
 end
 
     
